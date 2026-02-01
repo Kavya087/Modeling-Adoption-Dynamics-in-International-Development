@@ -10,5 +10,5 @@ jobs:
       - uses: treosh/lighthouse-ci-action@v11
         with:
           urls: |
-            https://YOUR-USERNAME.github.io/homepage/
+            https://kavya087.github.io/Modeling-Adoption-Dynamics-in-International-Development/
           budgetPath: ./budget.json
