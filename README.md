@@ -11,7 +11,106 @@ Together, these goals aim to show not only whether decision tools work, but unde
 
 # Approach
 
-We use dynamic systems modeling to study the interaction between decision tools, household behavior under risk, social learning, and environmental feedbacks.
+1. Purpose of the Model
+This agent-based model (ABM) simulates how fishers in a local community decide whether to adopt and continue using an AI-supported fisheries app over time.
+The model focuses on five core drivers of uptake:
+•	Trust
+•	Perceptions of risk
+•	Learning from past outcomes
+•	Peer influence
+•	Environmental variability
+
+2. Model Overview
+The model represents a fishing community composed of individual fishers (agents) connected through a social network. Each season, fishers decide whether to use the app based on their trust, past experiences, perceived risk, and what their peers are doing.
+Environmental conditions vary across seasons, influencing both fishing outcomes and how fishers interpret the app’s performance.
+The model runs over multiple time periods (e.g., fishing seasons) and tracks how adoption evolves.
+
+3. Agents
+Each fisher is represented as an agent with the following characteristics:
+3.1 Trust
+Represents confidence in the app and the institution behind it.
+Trust: - Increases gradually after positive experiences. - Decreases sharply after negative experiences. - Is influenced by the trust levels of peers.
+
+3.2 Perceived Risk
+Represents how risky it feels to rely on the app.
+Risk perception: - Increases after bad outcomes. - Increases when environmental conditions are highly unpredictable. - Decreases when many peers successfully use the app.
+
+3.3 Belief in Usefulness
+Represents the fisher’s belief that the app improves outcomes (e.g., catch, safety, income).
+Beliefs update over time based on personal experience.
+Negative experiences may carry more weight than positive ones.
+
+3.4 Adoption Status
+Each season, a fisher either: - Uses the app - Does not use the app
+Adoption is probabilistic and depends on trust, beliefs, perceived risk, environmental conditions, and peer behavior.
+
+3.5 Social Network
+Each fisher observes a set of peers.
+Peer influence affects: - Willingness to adopt - Trust updates - Perceived risk
+Fishers may copy behavior or confidence from their social contacts.
+
+4. Environment
+Each season has a level of environmental variability.
+Examples include: - Stable conditions - Moderately variable conditions - Highly volatile conditions (storms, shifting fish patterns, unusual weather)
+Environmental variability affects: - The reliability of fishing outcomes - The clarity of feedback about whether the app is helpful - Perceived risk
+Higher variability makes outcomes noisier and learning more difficult.
+
+5. Seasonal Dynamics
+Each season unfolds in the following sequence:
+Step 1: Environmental Conditions Realize
+The season is characterized by a specific level of variability.
+
+Step 2: Social Observation
+Fishers observe: - Which peers are using the app - Whether peers appear satisfied or dissatisfied
+
+Step 3: Adoption Decision
+Each fisher decides whether to use the app.
+This decision depends on: - Trust - Belief in usefulness - Perceived risk - Environmental conditions - Peer behavior
+
+Step 4: Outcomes Occur
+Fishers experience fishing outcomes.
+If using the app, outcomes may be: - Better than baseline - Worse than baseline - Ambiguous due to environmental noise
+In volatile seasons, even a useful app may appear ineffective.
+
+Step 5: Updating
+Fishers update: - Beliefs about usefulness - Trust - Perceived risk
+Highly visible failures may reduce trust across the entire community.
+
+6. Possible System Dynamics
+The model can generate multiple realistic patterns:
+6.1 Gradual Diffusion
+Adoption increases steadily as trust builds and peers influence others.
+
+6.2 Fragility
+A single extreme season reduces trust significantly.
+
+6.3 Trust Collapse
+A public or widely discussed failure causes rapid decline in adoption.
+
+6.4 Persistent Inequality
+Risk-averse or resource-constrained fishers may never adopt.
+
+6.5 Context-Dependent Success
+The same app may: - Succeed in moderately variable environments - Struggle in highly volatile environments
+
+7. Policy and Design Experiments
+The model allows simulation of interventions such as:
+•	Training programs that accelerate trust-building
+•	Human facilitation to reduce perceived risk
+•	Subsidies lowering adoption barriers
+•	Communication strategies after failures
+•	Different network structures (central influencers vs decentralized communities)
+
+8. Outputs Tracked
+Over time, the model tracks:
+•	Overall adoption rate
+•	Trust distribution
+•	Dropout rates
+•	Sensitivity to environmental shocks
+•	Differences across subgroups
+•	Stability versus collapse of uptake
+
+
 
 # Collaborators
 
