@@ -1,4 +1,5 @@
 {
+  "id": "/Modeling-Adoption-Dynamics-in-International-Development/",
   "name": "Modeling Adoption Dynamics",
   "short_name": "Adoption Model",
   "start_url": "./",
@@ -7,14 +8,19 @@
   "background_color": "#ffffff",
   "theme_color": "#111111",
   "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "screenshots": [
     {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "screenshots/desktop-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
     },
     {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
+      "src": "screenshots/mobile.png",
+      "sizes": "750x1334",
       "type": "image/png"
     }
   ]
