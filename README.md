@@ -49,6 +49,64 @@ Each fisher observes a set of peers.
 Peer influence affects: - Willingness to adopt - Trust updates - Perceived risk
 Fishers may copy behavior or confidence from their social contacts.
 
+3.6 Resource Constraints
+Represents a fisher’s ability to weather a bad season or absorb losses.
+Resource-constrained fishers:
+Are more vulnerable to single negative outcomes
+May be more risk-averse about trying new approaches
+Have less capacity to experiment or learn through trial and error
+Face higher stakes in adoption decisions
+Resource levels may also affect:
+Persistence after setbacks
+Willingness to invest time in learning the app
+Ability to access complementary resources (fuel, equipment) that make the app more useful
+
+3.7 Represents how far into the future a fisher weighs outcomes when making decisions.
+Variation may reflect:
+Age
+Health status
+Family obligations and succession planning
+Alternative livelihood options
+Fishers with longer time horizons:
+May tolerate short-term uncertainty for long-term gains
+May invest more in learning and skill-building
+May be less deterred by initial setbacks
+Time horizons interact with environmental variability. In highly volatile contexts, even patient fishers may discount the future more heavily.
+
+
+3.8 Alternative Information Sources
+Represents access to and trust in other sources of knowledge.
+Sources may include:
+Traditional ecological knowledge passed down through generations
+Personal fishing experience
+Observations of environmental cues (weather, water conditions, bird behavior)
+Informal networks and elder fishers
+Fishers with strong alternative information sources:
+May be less dependent on the app
+May use the app selectively rather than as a replacement
+May evaluate app advice against traditional knowledge
+May be slower to adopt if recommendations conflict with established practices
+The relationship between traditional knowledge and app-based guidance may be:
+Complementary (app confirms or refines existing knowledge)
+Contradictory (app suggests different approaches)
+Context-dependent (each works better in different conditions)
+
+3.9 Technology Access and Literacy
+Represents familiarity with smartphones and digital tools, as well as practical access.
+Variation includes:
+Prior experience with mobile phones or apps
+Literacy and numeracy levels
+Language compatibility
+Physical access to devices (ownership vs. sharing)
+Network connectivity and data costs
+Fishers with lower technology literacy or access:
+Face higher barriers to initial adoption
+Require more support and training
+May use the app less effectively even when adopted
+May rely on intermediaries or facilitators
+May experience the app differently (e.g., voice vs. text interface)
+Technology constraints can create persistent inequality in adoption and benefits, even when the app is freely available.
+
 4. Environment
 Each season has a level of environmental variability.
 Examples include: - Stable conditions - Moderately variable conditions - Highly volatile conditions (storms, shifting fish patterns, unusual weather)
