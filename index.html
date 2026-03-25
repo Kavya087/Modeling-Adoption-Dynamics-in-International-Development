@@ -6,6 +6,9 @@
 <title>Modeling Adoption Dynamics in International Development</title>
 <meta name="description" content="An agent-based model studying when and why technology interventions fail in development contexts, grounded in small-scale fisheries in Lake Malawi.">
 <meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2d5a3d">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -475,5 +478,12 @@
   <div>Agent-Based Model &middot; Lake Malawi &middot; In Progress</div>
 </footer>
 
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
 </body>
 </html>
